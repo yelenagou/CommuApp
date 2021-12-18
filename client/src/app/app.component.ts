@@ -15,11 +15,7 @@ export class AppComponent implements OnInit{
   }
 
   getUsers(){
-<<<<<<< HEAD
     this.http.get('https://localhost:44330/api/user').subscribe(
-=======
-    this.http.get('https://localhost:5001/api/user').subscribe(
->>>>>>> gitwork
       response => {
         this.users = response;
       }, error => {
