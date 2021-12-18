@@ -15,7 +15,7 @@ export class AppComponent implements OnInit{
   }
 
   getUsers(){
-    this.http.get('https://localhost:5001/api/user').subscribe(
+    this.http.get('https://localhost:44330/api/user').subscribe(
       response => {
         this.users = response;
       }, error => {
