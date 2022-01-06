@@ -7,3 +7,4 @@
 * ng new client --strict false
 * ng serve
 * ng add ngx-bootstrap
+* dotnet watch run for api
